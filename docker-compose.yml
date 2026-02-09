@@ -1,0 +1,94 @@
+version: '3.9'
+
+services:
+# Student Service
+  student-db:
+    image: mysql:8
+    container_name: student-db
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: student_db
+    ports:
+      - "3306:3306"
+    volumes:
+      - student_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-uroot", "-proot"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+
+  student-service:
+    build: ./service/student
+    container_name: student
+    ports:
+      - "5001:8080"
+    depends_on:
+      student-db:
+        condition: service_healthy
+    environment:
+      ConnectionStrings__Local: "Server=student-db;Port=3306;Database=student_db;Uid=root;Pwd=root"
+
+# Subject Service
+  subject-db:
+    image: mysql:8
+    container_name: subject-db
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: subject_db
+    ports:
+      - "3307:3306"
+    volumes:
+      - subject_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-uroot", "-proot"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+
+  subject-service:
+    build: ./service/subject
+    container_name: subject
+    ports:
+      - "5002:8080"
+    depends_on:
+      subject-db:
+        condition: service_healthy
+    environment:
+      ConnectionStrings__Local: "Server=subject-db;Port=3306;Database=subject_db;Uid=root;Pwd=root"
+
+# Registration Service
+  registration-db:
+    image: mysql:8
+    container_name: registration-db
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: registration_db
+    ports:
+      - "3308:3306"
+    volumes:
+      - registration_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-uroot", "-proot"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+
+  registration-service:
+    build: ./service/registration
+    container_name: registration
+    ports:
+      - "5003:8080"
+    depends_on:
+      registration-db:
+        condition: service_healthy
+    environment:
+      ConnectionStrings__Local: "Server=registration-db;Port=3306;Database=registration_db;Uid=root;Pwd=root"
+
+volumes:
+  student_data:
+  subject_data:
+  registration_data:

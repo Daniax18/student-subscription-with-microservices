@@ -1,0 +1,162 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\dev\\repos\\git\\enrollment\\service\\registration\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F82AE033-EA50-FA61-9BB4-49FD36B093D3}|registration.csproj|c:\\dev\\repos\\git\\enrollment\\service\\registration\\model\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F82AE033-EA50-FA61-9BB4-49FD36B093D3}|registration.csproj|solutionrelative:model\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82AE033-EA50-FA61-9BB4-49FD36B093D3}|registration.csproj|c:\\dev\\repos\\git\\enrollment\\service\\registration\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F82AE033-EA50-FA61-9BB4-49FD36B093D3}|registration.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82AE033-EA50-FA61-9BB4-49FD36B093D3}|registration.csproj|c:\\dev\\repos\\git\\enrollment\\service\\registration\\controller\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F82AE033-EA50-FA61-9BB4-49FD36B093D3}|registration.csproj|solutionrelative:controller\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82AE033-EA50-FA61-9BB4-49FD36B093D3}|registration.csproj|c:\\dev\\repos\\git\\enrollment\\service\\registration\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F82AE033-EA50-FA61-9BB4-49FD36B093D3}|registration.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82AE033-EA50-FA61-9BB4-49FD36B093D3}|registration.csproj|c:\\dev\\repos\\git\\enrollment\\service\\registration\\services\\studentclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F82AE033-EA50-FA61-9BB4-49FD36B093D3}|registration.csproj|solutionrelative:services\\studentclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82AE033-EA50-FA61-9BB4-49FD36B093D3}|registration.csproj|c:\\dev\\repos\\git\\enrollment\\service\\registration\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F82AE033-EA50-FA61-9BB4-49FD36B093D3}|registration.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82AE033-EA50-FA61-9BB4-49FD36B093D3}|registration.csproj|c:\\dev\\repos\\git\\enrollment\\service\\registration\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F82AE033-EA50-FA61-9BB4-49FD36B093D3}|registration.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F82AE033-EA50-FA61-9BB4-49FD36B093D3}|registration.csproj|c:\\dev\\repos\\git\\enrollment\\service\\registration\\services\\subjectclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F82AE033-EA50-FA61-9BB4-49FD36B093D3}|registration.csproj|solutionrelative:services\\subjectclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 270,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\dev\\repos\\git\\enrollment\\service\\registration\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\dev\\repos\\git\\enrollment\\service\\registration\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T16:38:33.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegistrationController.cs",
+              "DocumentMoniker": "C:\\dev\\repos\\git\\enrollment\\service\\registration\\Controller\\RegistrationController.cs",
+              "RelativeDocumentMoniker": "Controller\\RegistrationController.cs",
+              "ToolTip": "C:\\dev\\repos\\git\\enrollment\\service\\registration\\Controller\\RegistrationController.cs",
+              "RelativeToolTip": "Controller\\RegistrationController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T16:32:01.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\dev\\repos\\git\\enrollment\\service\\registration\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\dev\\repos\\git\\enrollment\\service\\registration\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T16:16:08.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Registration.cs",
+              "DocumentMoniker": "C:\\dev\\repos\\git\\enrollment\\service\\registration\\Model\\Registration.cs",
+              "RelativeDocumentMoniker": "Model\\Registration.cs",
+              "ToolTip": "C:\\dev\\repos\\git\\enrollment\\service\\registration\\Model\\Registration.cs",
+              "RelativeToolTip": "Model\\Registration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T16:15:01.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentClient.cs",
+              "DocumentMoniker": "C:\\dev\\repos\\git\\enrollment\\service\\registration\\Services\\StudentClient.cs",
+              "RelativeDocumentMoniker": "Services\\StudentClient.cs",
+              "ToolTip": "C:\\dev\\repos\\git\\enrollment\\service\\registration\\Services\\StudentClient.cs",
+              "RelativeToolTip": "Services\\StudentClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T16:25:04.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\dev\\repos\\git\\enrollment\\service\\registration\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\dev\\repos\\git\\enrollment\\service\\registration\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-26T16:43:07.381Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 241,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\dev\\repos\\git\\enrollment\\service\\registration\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\dev\\repos\\git\\enrollment\\service\\registration\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-26T16:39:34.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SubjectClient.cs",
+              "DocumentMoniker": "C:\\dev\\repos\\git\\enrollment\\service\\registration\\Services\\SubjectClient.cs",
+              "RelativeDocumentMoniker": "Services\\SubjectClient.cs",
+              "ToolTip": "C:\\dev\\repos\\git\\enrollment\\service\\registration\\Services\\SubjectClient.cs",
+              "RelativeToolTip": "Services\\SubjectClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T16:30:19.537Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
